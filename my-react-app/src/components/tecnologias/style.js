@@ -4,6 +4,7 @@ export const TechSection = styled.section`
 background-color: #0C0C0C;
 height: 70vh;
 margin-top:10vh;
+width: 100vw;
 &>h1{
     color:white;
     text-align:center;

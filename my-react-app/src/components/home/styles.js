@@ -31,6 +31,7 @@ export const DivHome = styled.div`
   &>h2{
     margin-left:38%;
     @media (max-width: 600px) {
+      
       margin-left:0;
       margin-top:2rem;
     }
@@ -48,7 +49,9 @@ export const DivHome = styled.div`
   }
 
   @media (max-width: 500px) {
-    width: 80%;
+    width: 80vw;
+    margin-left: 10vw;
+    
        >span{
         font-size:4rem;
        }

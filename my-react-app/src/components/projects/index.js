@@ -55,7 +55,7 @@ export const ImgDesk = styled.img`
   @media (max-width: 700px) {
        
     width: 70%;
-    height: 60%;
+    height: auto;
     }
 `;
 
@@ -73,8 +73,9 @@ export const ImgMobile = styled.img`
   }
 
   @media (max-width: 700px) {
-    width: 30%;
-    height: 60%;
+    width: 25%;
+    height:auto;
+    max-height: 163px;
        left:0;
        top:0;
       }

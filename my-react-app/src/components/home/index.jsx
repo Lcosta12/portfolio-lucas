@@ -22,10 +22,7 @@ export const Home = () => {
         DEVELOPER 
         </span>
 
-        <h2>
-          Tenho 19 anos, sou atualmente desenvolvedor front-end com 6 meses de
-          experiencia trabalhando em projetos.
-        </h2>
+        
 
       </DivHome>
     </HomeSection>
