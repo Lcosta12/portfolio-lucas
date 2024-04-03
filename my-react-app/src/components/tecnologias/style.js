@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const TechSection = styled.section`
 background-color: #0C0C0C;
-height: 70vh;
+height: 100vh;
 margin-top:10vh;
 width: 100vw;
 &>h1{

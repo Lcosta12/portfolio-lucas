@@ -33,7 +33,7 @@ export const DivProjects = styled.div`
 
   @media (max-width: 700px) {
     margin-bottom:0;
-    height:20rem;
+    height:22rem;
     width: 94%;
 
   }

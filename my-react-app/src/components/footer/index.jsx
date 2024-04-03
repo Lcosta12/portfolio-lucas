@@ -1,16 +1,32 @@
+import { ContactDiv, ContactSection } from "./styles";
+
 export const Footer = () => {
     return (
       
-        <div>
-          <h2> Entre em contato: <span>lucascosta120903@gmail.com</span> </h2>
-          <h2>Telefone: 51996618608</h2>
+        <ContactSection>
+
+          <ContactDiv>
+
+          <form>
+            <h1>entre em contato</h1>
+            <input type="text" placeholder="Nome"/>
+            <input type="text" placeholder="E-mail" />
+            <input type="text" placeholder="Mensagem" />
+            <button>Enviar</button>
+
+
+          </form>
+
+        
           
+          
+          </ContactDiv>
   
           
   
           
   
-        </div>
+          </ContactSection>
       
     );
   };
