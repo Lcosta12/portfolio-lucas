@@ -24,7 +24,7 @@ export const UlTechs = styled.ul`
     
 
     &>li{
-        background: #E9E9F9;
+        background: #eaefef;
         border-radius:0.7rem;
         list-style:none;
         display: flex;

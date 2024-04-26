@@ -3,7 +3,7 @@ import {styled} from "styled-components";
 export const ProjectsSection = styled.section`
 display: flex;
     flex-direction: column;
-    background-color: #E9E9F9;
+    background-color: #eaefef;
     width: 100vw;
     gap: 5rem;
     align-content: center;

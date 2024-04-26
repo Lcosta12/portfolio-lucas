@@ -1,32 +1,27 @@
+
+import EmailLink from "../configs/emailButton";
+import WhatsAppButton from "../configs/whatsappButton";
 import { ContactDiv, ContactSection } from "./styles";
+import gmailImage from "../../assets/gmail.svg"
+
 
 export const Footer = () => {
-    return (
-      
-        <ContactSection>
+  return (
+    <ContactSection>
 
-          <ContactDiv>
+      <h1>Entre em contato</h1>
 
-          <form>
-            <h1>entre em contato</h1>
-            <input type="text" placeholder="Nome"/>
-            <input type="text" placeholder="E-mail" />
-            <input type="text" placeholder="Mensagem" />
-            <button>Enviar</button>
+        <ContactDiv>
+        
+            <WhatsAppButton phoneNumber="5551996618608" message="Olá, estou entrando em contato através do seu site." />
+            <EmailLink email="lucascosta120903@gmail.com" subject="Contato via site" body="Boa tarde gostaria de entrar em contato"><img src={gmailImage} alt="" /></EmailLink>
+        </ContactDiv>
 
-
-          </form>
 
         
           
-          
-          </ContactDiv>
-  
-          
-  
-          
-  
-          </ContactSection>
-      
-    );
-  };
+        
+
+    </ContactSection>
+  );
+};

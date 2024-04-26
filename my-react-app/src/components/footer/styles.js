@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const ContactSection = styled.section`
-background-color: white;
-height: 80vh;
+
+background-color: #eaefef;
+color: black;
+height: 15vh;
 display: flex;
 justify-content: space-around;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
-
 
 
 
@@ -15,9 +16,9 @@ align-items: center;
 
 `
 export const ContactDiv = styled.div`
-background-color: green;
+
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-content: center;
 align-items: center;
 justify-content: center;
