@@ -1,8 +1,8 @@
-import kenzieHubDesk from "../../assets/KenzieHub.Desk.png"
+import kenzieHubDesk from "../../assets/Kenziehub.Desk.png"
 import kenzieHubMobile from "../../assets/Kenziehub.mobile.png"
-import burguerKenzieMobile from "../../assets/BurguerKenzie.mobile.png"
+import burguerKenzieMobile from "../../assets/BurguerKenzie.Mobile.png"
 import burguerKenzieDesk from "../../assets/BurguerKenzie.Desk.png"
-import KenzieMovieMobile from "../../assets/KenzieMovie.mobile.png"
+import KenzieMovieMobile from "../../assets/KenzieMovie.Mobile.png"
 import KenzieMovieDesk from "../../assets/KenzieMovie.Desk.png"
 import { DivProjects, H1Projects, ImgDesk, ImgMobile, ProjectsSection } from "."
 
