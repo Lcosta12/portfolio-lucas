@@ -1,5 +1,3 @@
-import { TechSection, UlTechs } from "./style"
-
 import Js from "../../assets/javascript.svg";
 import typeScript from "../../assets/typescript.svg";
 import css from "../../assets/css.svg";
@@ -9,31 +7,64 @@ import mysql from "../../assets/mysql.svg";
 import tailwind from "../../assets/tailwindcss.svg";
 import git from "../../assets/git.svg";
 import style from "../../assets/style.png";
-import node from "../../assets/node.svg"
-import express from "../../assets/express.svg"
-import next from "../../assets/next.svg"
+import node from "../../assets/node.svg";
+import express from "../../assets/express.svg";
+import next from "../../assets/next.svg";
+import { TechSection, TechItemWrapper, TechItemCard } from "./style.js";
 
-
-export const Tecnologias =()=>{
-    return(
-        <TechSection>
-            <h1 id="techs">tecnolgias</h1>
-
-            <UlTechs>
-                <li> <img src={Js} alt="" />JAVASCRIPT</li>
-                <li> <img src={typeScript} alt=""/>TYPESCRIPT</li>
-                <li><img src={css} alt="" />CSS</li>
-                <li> <img src={html} alt="" />HTML</li>
-                <li> <img src={react} alt="" />REACT</li>
-                <li> <img src={next} alt="" />NEXT</li>
-                <li> <img src={node} alt="" />NODE</li>
-                <li> <img src={express} alt="" />EXPRESS</li>
-                <li> <img src={mysql} alt="" />MYSQL</li>
-                <li> <img src={git} alt="" />GIT</li>
-                <li> <img src={style} alt="" />STYLED-COMPONENTS</li>
-                <li> <img src={tailwind} alt="" />TAILWIND</li>
-                
-            </UlTechs>
-        </TechSection>
-    )
-}
+export const Tecnologias = () => {
+  return (
+    <TechSection id="techs">
+      <TechItemWrapper>
+        <TechItemCard>
+          <img src={Js} alt="Javascript" />
+          <p>JAVASCRIPT</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={typeScript} alt="Typescript" />
+          <p>TYPESCRIPT</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={css} alt="CSS" />
+          <p>CSS</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={html} alt="HTML" />
+          <p>HTML</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={react} alt="React" />
+          <p>REACT</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={next} alt="Next.js" />
+          <p>NEXT.JS</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={node} alt="Node.js" />
+          <p>NODE.JS</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={express} alt="Express.js" />
+          <p>EXPRESS.JS</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={mysql} alt="MySQL" />
+          <p>MYSQL</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={git} alt="Git" />
+          <p>GIT</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={style} alt="Styled-components" />
+          <p>STYLED-COMPONENTS</p>
+        </TechItemCard>
+        <TechItemCard>
+          <img src={tailwind} alt="Tailwind" />
+          <p>TAILWIND</p>
+        </TechItemCard>
+      </TechItemWrapper>
+    </TechSection>
+  );
+};

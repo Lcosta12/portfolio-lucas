@@ -1,47 +1,44 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 export const TechSection = styled.section`
-background-color: #0C0C0C;
-height: 100vh;
-margin-top:10vh;
-width: 100vw;
-&>h1{
-    color:white;
-    text-align:center;
-    font-size:4rem;
-    margin-bottom:2rem;
-}
-`
+  padding: 20px;
+  text-align: center;
+`;
 
-export const UlTechs = styled.ul`
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    color:white;
-    width:80%;
-    margin-left:10%;
-    gap:2rem;
-    
+export const TechItemWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+`;
 
-    &>li{
-        background: #eaefef;
-        border-radius:0.7rem;
-        list-style:none;
-        display: flex;
-        /* aligm-items:center; */
-        justify-content:center;
-        align-items: center;
-        flex-direction:column;
-        width: 10rem;
-        color:#0c0c0c;
-        height:8rem;
-        
-        >img{
-            height: 5rem;
-            width: 5rem;
-            margin-bottom:5px;
-            
+export const TechItemCard = styled.div`
+  width: 120px;
+  height: 140px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
 
-        }
-    }
-`
+  &:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+`;
